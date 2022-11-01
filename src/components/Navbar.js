@@ -6,7 +6,7 @@ const Navbar = (props) => {
     return (
         <div className={styles.container}>
             <div className={styles.name}>
-                Botogram
+                Bettergram
             </div>
             <div className={styles.logout} onClick={logOutHandler}>
                    Logout
