@@ -11,6 +11,7 @@ const Login = () => {
         <div className={styles.LoginPage}>
             <div className={styles.LoginCard}>
                 <h2>Welcome to Bettergram!</h2>
+                <h3 className={styles.infovpn}>use vpn to sign up!</h3> 
                 <div
                  className={styles.button} 
                  onClick={() => auth.signInWithRedirect(new firebase.auth.GoogleAuthProvider())}
